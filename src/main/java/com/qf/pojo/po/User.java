@@ -2,7 +2,7 @@ package com.qf.pojo.po;
 
 public class User {
     private int id;
-    private int age;
+    private String password;
 
     public int getId() {
         return id;
@@ -12,11 +12,11 @@ public class User {
         this.id = id;
     }
 
-    public int getAge() {
-        return age;
+    public String getPassword() {
+        return password;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
